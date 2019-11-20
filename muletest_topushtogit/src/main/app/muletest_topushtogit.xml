@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="muletest_topushtogitFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <logger message="Local proj to Push" level="INFO" doc:name="Logger"/>
+        <logger message="Modified Logger" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
